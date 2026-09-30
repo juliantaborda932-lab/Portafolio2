@@ -21,23 +21,22 @@ st.write(f"Enlace para páginas y ejercicios generales: [Portal de Ejercicios]({
 
 st.divider()
 
-# Las imágenes deben estar en una subcarpeta "imagenes/" del repo
-# (usa las mismas que ya tienes en cmcorrea_apps-main: txt_to_audio2.png,
-#  txt_to_audio.png, OIG5.jpg, OIG8.jpg, data_analisis.png, OIG3.jpg,
-#  Chat_pdf.png, OIG4.jpg, OIG6.jpg, OIG2.jpg)
+# Imágenes disponibles en imagenes/ (confirmado en tu repo):
+# Chat_pdf.png, OIG2.jpg, OIG3.jpg, OIG4.jpg, OIG5.jpg, OIG6.jpg, OIG8.jpg,
+# audio_to_txt.png, data_analisis.png
 
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.subheader("1. Prueba Streamlit")
-    image = Image.open('imagenes/txt_to_audio2.png')
+    image = Image.open('imagenes/audio_to_txt.png')
     st.image(image, width=180)
     st.write("Creación de archivo inicial de prueba y despliegue básico en la plataforma.")
     url1 = "https://intro-pa.streamlit.app/"
     st.write(f"App Prueba: [Enlace]({url1})")
 
     st.subheader("2. Vectores y Matrices")
-    image = Image.open('imagenes/txt_to_audio.png')
+    image = Image.open('imagenes/OIG2.jpg')
     st.image(image, width=180)
     st.write("Agrega una fruta con sus características y calcula distancias entre vectores.")
     url2 = "https://frutaspy.streamlit.app/"
@@ -103,7 +102,7 @@ with col3:
 
 with col4:
     st.subheader("11. Regresión Logística")
-    image = Image.open('imagenes/txt_to_audio2.png')
+    image = Image.open('imagenes/audio_to_txt.png')
     st.image(image, width=180)
     st.write("Transición de predicción de variables continuas a clasificación por categorías.")
     url11 = "https://regresion-logisticaaaa.streamlit.app/"
