@@ -120,3 +120,9 @@ with col4:
     st.write("Clasificación de fertilidad de suelos (baja, media, alta) según análisis químicos.")
     url13 = "https://agrosavia-kjbeg9dh3grekyks94hmrv.streamlit.app/"
     st.write(f"KNN Suelos: [Enlace]({url13})")
+
+    st.subheader("14. Visualización y PCA Energía")
+    image = Image.open('imagenes/OIG3.jpg')
+    st.image(image, width=180)
+    st.write("Storytelling con datos, vectores propios y PCA aplicado a perfiles de consumo energético.")
+    st.info("Desarrollado con HTML interactivo y notebook en clase.")
