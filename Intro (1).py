@@ -78,7 +78,6 @@ with col2:
     url7 = "https://regresion.streamlit.app/"
     st.write(f"Regresión Lineal: [Enlace]({url7})")
 
-with col3:
     st.subheader("8. Series de Tiempo")
     image = Image.open('imagenes/OIG4.jpg')
     st.image(image, width=180)
@@ -86,6 +85,7 @@ with col3:
     url8 = "https://series-de-tiempoo.streamlit.app/"
     st.write(f"Series de Tiempo: [Enlace]({url8})")
 
+with col3:
     st.subheader("9. Calidad del Aire")
     image = Image.open('imagenes/OIG2.jpg')
     st.image(image, width=180)
@@ -100,7 +100,6 @@ with col3:
     url10 = "https://iotejercicio.streamlit.app/"
     st.write(f"Sistema IoT: [Enlace]({url10})")
 
-with col4:
     st.subheader("11. Regresión Logística")
     image = Image.open('imagenes/audio_to_txt.png')
     st.image(image, width=180)
@@ -113,6 +112,9 @@ with col4:
     st.image(image, width=180)
     st.write("Algoritmo K-Vecinos más Cercanos, fronteras de decisión y efecto de K.")
     st.info("Desarrollado con HTML interactivo local en clase.")
+    
+
+with col4:
 
     st.subheader("13. KNN Suelos AGROSAVIA")
     image = Image.open('imagenes/OIG8.jpg')
@@ -126,3 +128,10 @@ with col4:
     st.image(image, width=180)
     st.write("Storytelling con datos, vectores propios y PCA aplicado a perfiles de consumo energético.")
     st.info("Desarrollado con HTML interactivo y notebook en clase.")
+
+    st.subheader("15. Procesamiento en Paralelo")
+    image = Image.open('imagenes/OIG5.jpg')
+    st.image(image, width=180)
+    st.write("Procesamiento en Paralelo - Eficiencia y paralelismo en Python")
+    url15 = "https://procesamiento-en-paralelo-tizmffechezmapprfwasezg.streamlit.app/"
+    st.write(f"Procesamiento en parelelo: [Enlace]({url15})")
